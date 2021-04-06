@@ -1,0 +1,30 @@
+Perintah dasar
+===========================================================
+git clone --> Perintah untuk cloning
+cd <nama repo> --> untuk masuk ke repo
+git status --> untuk melihat status file didalam repo
+git add . --> untuk memindahkan semua file working tree ke staging area
+git commit -m "pesan"
+alias graph="git log --all --decorate --online --graph" --> untuk membuat graph insight
+graph --> untuk melihat graph yang telah dibuat
+git push --> untuk mengpush file
+git config --global user.name "username" -- >untuk login akun
+git config --global user.email "andikarestu37@gmail.com" --> untuk login akun
+
+create a new repository on the command line
+================================================
+echo "# belejar-remote" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/andikarestu03/belejar-remote.git
+git push -u origin main
+
+push an existing repository from the command line
+=============================================================
+git remote add origin https://github.com/andikarestu03/belejar-remote.git
+git branch -M main
+git push -u origin main
+
+catatan : sebelum ketik perintah di command line sebaiknya create repo terlebih dahulu pada github
